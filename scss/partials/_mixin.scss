@@ -1,0 +1,7 @@
+@mixin block_font($block_font_size: 30px, $block_font_color: $dark-color){
+  font-size: $block_font_size;
+  color: $block_font_color;
+}
+
+
+
