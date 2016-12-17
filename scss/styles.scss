@@ -24,14 +24,32 @@ body{
   color: #EEE;
   @media #{$large-screen} {   // how you use a variable to color media queries
     background-color: $bright-color;
+    ul {
+      li {
+        display: inline-block;
+        margin-right: 10px;
+        width: 250px;
+
+      }
+    }
 
   }
   @media #{$medium-screen} {   // how you use a variable to color media queries
     background-color: $light-color;
+    ul {
+      li {
+        display: inline-block;
+      }
+    }
 
   }
   @media #{$mobile-screen} {   // how you use a variable to color media queries
-    background-color: $dark-color
+    background-color: $dark-color;
+    ul {
+      li {
+        display: inline-block;
+      }
+    }
 
   }
 
@@ -53,11 +71,12 @@ h2{
 
 
 .block_family{
-  max-width:350px;
+  max-width:1000px;
   margin:auto;
 }
 
 .block_family li {
+
   background-color: #222;
   margin-bottom: 20px;
   padding: 20px;
