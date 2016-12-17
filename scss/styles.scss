@@ -24,6 +24,7 @@ body{
   background-color: orange;
   text-align: center;
   color: #EEE;
+
   @media #{$monitor-screen} {
     background-color: $Tyler-color;
     ul {
